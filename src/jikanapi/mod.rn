@@ -12,6 +12,7 @@ impl Anime {
     }
 
     pub fn display(self) {
+        println("version 1.2")
         println!("{} - {}", self.mal_id, self.title);
     }
 }
