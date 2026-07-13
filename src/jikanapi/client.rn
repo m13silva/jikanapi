@@ -1,0 +1,9 @@
+pub struct Client {
+    base_url,
+}
+
+impl Client {
+    pub fn new() {
+        Self { base_url: "https://api.jikan.moe/v4" }
+    }
+}

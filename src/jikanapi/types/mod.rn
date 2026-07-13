@@ -1,0 +1,3 @@
+pub fn es_popular(score) {
+    score > 8.0
+}

@@ -1,0 +1,17 @@
+pub mod types;
+pub mod client;
+
+pub struct Anime {
+    mal_id,
+    title,
+}
+
+impl Anime {
+    pub fn new(mal_id, title) {
+        Self { mal_id, title }
+    }
+
+    pub fn display(self) {
+        println!("{} - {}", self.mal_id, self.title);
+    }
+}
